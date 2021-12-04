@@ -1,0 +1,192 @@
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    color: white;
+    background: #1f2937;
+    margin: -15px;
+}
+
+.headercontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 30%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.signup h1 {
+    font-weight: 1000;
+    font-size: 48px;
+}
+.headerlink {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.randomclass {
+    display: flex;
+    flex: 1;
+    height: 500px;
+    flex-wrap: wrap;
+}
+.randominfo {
+    display: flex;
+    flex: 1;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-bottom: -40px;
+    
+    
+}
+
+    
+.infoimgdiv {
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+    
+    
+   
+}
+
+.infoimgsize {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+}
+.infoimg {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+.infoimg p {
+    text-align: center;
+}
+
+.inspiration {
+    display: flex;
+    flex: 1;
+    flex-basis: 100%;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 40% 50px 40%;
+    
+    margin: -10px;
+}
+.inspirationchild {
+    flex: 1;
+    flex-basis: 100;
+    
+}
+#quote {
+    color: #1f2937;
+}
+
+#natsig {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.calltoaction {
+    padding: 80px;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+.calltoactionbox {
+    display: flex;
+    flex: 1;
+    flex-basis: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px 30px 50px;
+    border-radius: 10px;
+}
+.calltoactionsignup {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
+.calltoactionsignup h3 {
+    flex: 0;
+    flex-basis: 100%;
+    margin: 0px;
+   
+}
+.calltoactionsignup p {
+    flex: 0;
+    flex-basis: 100%;
+       
+    
+    color: #e5e7eb;
+    margin: 0px;
+}
+.calltoactionbox button {
+    border: 2px solid white;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 00px;
+    
+    
+}
+
+footer {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 20px;
+    margin: -10px;
+    color: white;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background: #3882f6;
+    border-radius: 5px ;
+    border: 0px;
+}
+
+.secondarytext {
+    color: #e5e7eb;
+}
